@@ -23,7 +23,7 @@ console.log(JsUser["email"])//ruthvik.gmail.com
 
 //console.log(JsUser.fullname) cant access
 console.log(JsUser["fullname "])//as in the object it is created as "fullname" i.e string
-console.log(JsUser[mySym]);//datatype string not symbol
+console.log(JsUser[mySym]);//now gives the datatype symbol
 
 JsUser.email = "Ruth@gmail.com"
 console.log(JsUser.email)//changes the email value 
@@ -36,7 +36,7 @@ console.log(JsUser)
 
  JsUser.greeting = function(){
     console.log("Hello")
- }
+ }// adds the function to the object
 
  console.log(JsUser.greeting());
  

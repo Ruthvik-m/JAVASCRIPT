@@ -4,7 +4,7 @@
  console.log(null > 0)
  console.log(null == 0)
  console.log(null >= 0)
-// comparsions  >  >= < <= convert nulll to a number  treatting it as 0 thats why null>=0 => true / null > 0 => false
+// comparsions  >  >= < <= convert nulll to a number  treating it as 0 thats why null>=0 => true / null > 0 => false
 
 console.log(undefined  == 0)
 console.log(undefined  >= 0)

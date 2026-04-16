@@ -3,12 +3,12 @@ const repoCount = 5
 
 //console.log(name + repoCount + " Value")// Dont use this 
 
-//console.log(`Hello my name is ${name} and my repocount is ${repoCount}` )
+//console.log(`Hello my name is ${name} and my repocount is ${repoCount}` )//usethis
 
 const gameName = new String('Black-777')//here sting is object
 
 // console.log(gameName[0])
-// console.log(gameName.__proto__)//turns to object
+console.log(gameName.__proto__)//turns to object
 
 // console.log(gameName.length)
 // console.log(gameName.toUpperCase())
