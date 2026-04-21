@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: #212121; color : #fff">
+        <ul class="language">
+            <li>JavaScript</li>
+        </ul>
+</body>
+<script>
+    function addLanguage(langName){
+       const li =  document.createElement('li')
+       li.innerHTML = `${langName}`
+       document.querySelector('.language').appendChild(li)//append the li in the html collection and appendchild is to reflect in theh webserver
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    function addOptiLangauage(langName){
+        const li =  document.createElement('li')
+        li.appendChild(document.createTextNode(langName))//creates textnode with the input langName then gets appended
+        document.querySelector('.language').appendChild(li)//now the textnode created will be appended to the html collection via query operator
+    }
+    addOptiLangauage("go lang")
+
+    //EDIT
+    const secondLang = document.querySelector("li:nth-child(2)")//gives the second element
+    //secondLang.innerHTML  = "Mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo"
+    secondLang.replaceWith(newli)
+
+    //EDIT2
+    const firstLang = document.querySelector("li:first-child")//directly replaces the first child of the li 
+    firstLang.outerHTML = '<li>Type Script</li>'//directly replaces with the first
+
+    //REMOVE
+    const lastLang = document.querySelector("li:first-child")
+    lastLang.remove()
+</script>
+</html>

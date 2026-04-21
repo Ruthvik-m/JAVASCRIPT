@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff; ;
+        }
+    </style>
+</head>
+<body class= "bg-black">
+    <div>
+        <h1 style = "color: red;" id ="title" class="heading">DOM LEARNING ON OUR CHAI AUR CODE <span style = "display: none;"> test text</span></h1>
+        <h2>Lorem, ipsum dolor.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio facere veniam, rerum explicabo aspernatur quia quis id odio, expedita, itaque laboriosam ut pariatur dignissimos fuga placeat excepturi voluptatum perspiciatis. Officiis!</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class = 'list' >one</li>
+            <li class = 'list'>two</li>
+            <li class = 'list'> three</li>
+            <li class = 'list'>four</li>
+        </ul>
+
+    </div>
+</body>
+</html>
+
+<!--console.log(document.links) => gives the links prensent in the present webpage
+*** document.getElementByid(id : 'firstheading') => gives the complete tag info of the respective id
+
+//document.getElementByid(id : 'firstheading').innerHTML = "<h1>chai aur code</h1>" => replaces the textnode that is given in the classname with the updated one
+
+//document.getElementById('title')
+<h1 id=​"title" class=​"heading">​DOM LEARNING ON OUR CHAI AUR CODE​</h1>​
+
+//document.getElementById('title').class
+undefined
+
+//document.getElementById('title').className
+'heading'
+
+//document.getElementById('title').getAttribute('id')
+'title'
+
+//document.getElementById('title').getAttribute('class')
+'heading'
+
+//document.getElementById('title').setAttribute('class','test')
+undefined
+
+//document.getElementById('title').setAttribute('class','test heading')
+undefined
+
+//const title = document.getElementById('title')
+
+//title.style.backgroundColor = 'green'
+'green'
+
+//title.style.padding = '15px'
+'15px'
+
+//title.style.borderRadius = "15px"
+'15px'
+
+//title.innerText
+'DOM LEARNING ON OUR CHAI AUR CODE' => it hides as we gave there display = none under style section 
+
+//title.textContent
+'DOM LEARNING ON OUR CHAI AUR CODE  test text' => even thought you give the diaplay is none it the text content gives the content present irrespective of the style variables
+
+//title.innerHTML
+'DOM LEARNING ON OUR CHAI AUR CODE <span style="display: none;"> test text</span>'
+
+//document.querySelector('h1')
+<h1 style=​"color:​ red;​" id=​"title" class=​"heading">​…​</h1>​//gives the first h1 tag element
+
+//document.querySelector('input[type = password]')
+<input type=​"password" name id>​
+
+//document.querySelector('ul')
+<ul>​…​</ul>​
+
+//const myUl = document.querySelector('ul')
+undefined
+
+//myUl.querySelector('li')
+<li style=​"background-color:​ green;​ padding:​ 15px;​">​…​</li>​::marker​"one"</li>​
+
+//const turnGreen = myUl.querySelector('li')
+undefined
+
+//turnGreen.style.backgroundColor = 'green'
+'green'
+
+//turnGreen.style.padding = '15px'
+'15px'
+
+//turnGreen.innerText
+'one'
+
+//turnGreen.innerText = 'five'
+'five'
+
+//document.querySelectorAll('li')
+NodeList(3) [li, li, li]
+
+//const tempList = document.querySelectorAll('li')
+undefined
+
+
+-->

@@ -7,7 +7,7 @@ const myTotal = myNums.reduce((acc,cv) =>{
     
     return acc + cv
 },0 )// here "0" is for accumulator value where to start
-//console.log(myTotal);
+console.log(myTotal);
 
 
 const shoppingCart =[

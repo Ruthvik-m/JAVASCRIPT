@@ -6,7 +6,7 @@
 const arr = [1,2,3,4,5]
 
 for (const num of arr) {
-   // console.log(num);
+  console.log(num);
     
 }
 //output
@@ -19,7 +19,7 @@ for (const num of arr) {
 
 const greetings = "Hello world!"
 for(const greet of greetings){
-    //console.log(`Each char is ${greet}`);
+    console.log(`Each char is ${greet}`);
     }
 // Each char is H
 // Each char is e
@@ -44,7 +44,7 @@ map.set('CH','CHILE')
 //console.log(map);
 
 for (const [key,value] of map) {
-    //console.log(key,':-',value);
+    console.log(key,':-',value);
     
 }
 
@@ -53,7 +53,7 @@ const myObj ={
     'game2' : 'Spiderman'
 }
 
-for (const [key,value] of myObj){
-    console.log(key,':-',value);
+// for (const [key,value] of myObj){
+//     console.log(key,':-',value);
     
-}
+// }doesnt works for object

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAI AUR CODE</title>
+</head>
+<body style="background-color : #212121; color: #fff;">
+    
+</body>
+<script>
+   const div =  document.createElement('div')
+    console.log(div);//creates element 
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10+1)
+    div.setAttribute("title" , "generated title")//sets the title
+    div.style.backgroundColor = "green"
+    div.style.padding =" 12px"
+    div.innerText = "Chai aur code"//adds text
+    const addText =  document.createTextNode("chai aur code")
+    div.appendChild(addText)//this also adds text
+
+    document.body.appendChild(div)//this refelect in the web page untill then it gets stores in the memory
+</script>
+</html>
